@@ -1,0 +1,22 @@
+[project]
+name = "sales_transcript_reader"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Michael Johnson", email = "mistermichaellll@gmail.com"},
+]
+dependencies = ["langchain>=0.3.8", "requests>=2.32.3", "langchain-anthropic>=0.3.0", "python-dotenv>=1.0.1"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+_.env_file.override = ".env"

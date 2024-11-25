@@ -1,0 +1,39 @@
+BDR: Hi, is this John?
+
+Prospect (John): Yeah, this is John. Who’s this?
+
+BDR: Hey John, I’m Sarah from Extreme CRMs LLC. How’s your day going?
+
+Prospect (John): Not too bad, thanks. What’s this about?
+
+BDR: Glad to hear it’s going well! I’m reaching out because we've been helping companies similar to yours streamline their operations, reduce manual work, and save time with our CRM software. I wanted to see if you'd be open to learning how we could help your team as well.
+
+Prospect (John): Hmm, I appreciate the offer, but we’ve been using OpenCRM for a few years now. I’m not sure we need anything else at the moment.
+
+BDR: I totally get that. A lot of businesses get comfortable with their current systems. What kind of results are you seeing with OpenCRM? Any challenges or frustrations that have come up recently?
+
+Prospect (John): Well, to be honest, the software is fine, but it’s gotten really expensive. I don’t think we’re getting the full value for what we’re paying, and our team has mentioned that we’re not utilizing a lot of the features. Plus, the monthly cost keeps creeping up.
+
+BDR: Yeah, we hear that a lot with OpenCRM. A lot of companies feel like they’re paying a premium for features they don’t even use. What if I told you we have a solution that’s just as powerful but more cost-effective? We’ve helped similar businesses save up to 30% on their CRM costs while improving efficiency. Would you be interested in learning more about that?
+
+Prospect (John): I mean, I’m interested, but honestly, timing is tough right now. We’ve got a lot of other things going on this quarter, and I don’t know if we have the bandwidth for another project right now.
+
+BDR: I totally understand. Timing can be one of the toughest things to manage. We actually offer flexible implementation options that allow you to integrate our platform at your own pace. We can adjust to your schedule so it doesn’t disrupt your current priorities. Does that sound like something that could work for you?
+
+Prospect (John): Maybe, but I’m still not convinced. You keep talking about how you’re more cost-effective than OpenCRM, but how do I know the switch won’t be a headache? We’ve been with OpenCRM for years, and they’ve got a lot of their processes already set up. I don’t want to deal with a lot of back-and-forth just to get things running smoothly.
+
+BDR: That’s a fair concern, John. A transition can feel overwhelming, but we make it as easy as possible. We offer a dedicated customer success team to guide you through the setup, and we ensure a smooth migration with minimal downtime. Plus, our platform is built to integrate easily with most tools, so the switch should be pretty seamless. We even provide training for your team, so there’s no guesswork involved.
+
+Prospect (John): Hmm, okay, that sounds better than I expected, but I still have reservations. We’re just so used to OpenCRM, and it’s hard to justify switching to something new when we’ve already invested so much into this system.
+
+BDR: I completely understand, John. Switching tools is a big decision, especially when there’s an investment involved. But think about it—if you could save money and get a more tailored solution that better fits your needs, wouldn’t that be worth considering? Plus, with our flexible pricing, we can find a plan that works within your budget, even if you're looking for something more customized.
+
+Prospect (John): I see your point, but I still need to check with the rest of my team and make sure this makes sense for us as a whole.
+
+BDR: Of course! I’d be happy to send over some more information so you and your team can take a closer look. How about we schedule a demo next week? That way you can see the platform in action and get all your questions answered.
+
+Prospect (John): Alright, that could work. Let’s do that.
+
+BDR: Perfect! I’ll send you an email with the details, and we’ll set up a time for the demo. Thanks again for your time, John—I really appreciate it!
+
+Prospect (John): Thanks, Sarah. I’ll talk to you soon.

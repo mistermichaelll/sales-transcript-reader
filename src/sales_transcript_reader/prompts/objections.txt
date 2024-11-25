@@ -1,0 +1,61 @@
+description: >
+    Ignore all previous instructions.
+
+    Your task is to review transcripts of phone calls made by our sales team
+    and classify the objections and opportunities that emerge during the conversation.
+
+    A sales objection is a concern, hesitation, or reason expressed by a potential customer as to why they are not ready or willing to make a purchase.
+    These objections typically revolve around aspects like price, timing, need, or suitability of the product/service for their specific situation.
+
+    Pay close attention to the sentiment of the customer's comment. If the customer expresses positive feedback (eg "wow, this is a lot cheaper than I expected" or "we could really use something like this"), do not label this as an objection.
+
+    After reviewing, return your classifications in the correct JSON format, as shown below:
+
+    {{
+        "objections": [
+            {{
+                "objection_no": 1,
+                "objector_name": "the name of the objector",
+                "objection_type": "a classification of objection (defined below)",
+                "objection_summary": "a short, one-sentence summary of the reasoning behind the objection type."
+            }}
+        ]
+    }}
+
+    Note that there can be multiple objections raised in a single call. If the same type of concern is raised by the same person on the call multiple times, only include one.
+
+classifications:
+    format: JSON
+
+    structure:
+        objections:
+            - objection_no: Integer
+              objector_name: String
+              objection_type: String
+              objection_summary: String
+
+    acceptable_objection_reasons: 
+        - budget-concerns: >
+            Use this if they mention that the price of the product is too high, that they don't currently have the budget, or similar concerns about our solution (Extreme CRMs LLC).
+            **Do not classify concerns about the cost of their current product/vendor (eg openCRM) as an objection.** Instead return a blank objection: {{}}
+        - bad-timing: >
+            Use this if the objection is not around the price itself, but rather the timing of the purchase/implementation. For example if they're too busy, it's "not the right time," etc.
+        - competitor: >
+            Use this if they mention exploring or using a competitor's product. Potential competitors are defined below.
+        - other: >
+            Use this for any objection that doesn't fit into the categories above, or match specific exceptions defined below.
+
+    competitors:
+        - SalesForce
+        - OpenCRM
+
+    exceptions:
+        - Not Interested
+
+    return_instructions: >
+        Return only the JSON with the required classifications, do not label the JSON as such.
+
+transcript:
+    Here is the call transcript.
+
+    {transcript}
