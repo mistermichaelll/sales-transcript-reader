@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "Michael Johnson", email = "mistermichaellll@gmail.com"},
 ]
-dependencies = ["langchain>=0.3.8", "requests>=2.32.3", "langchain-anthropic>=0.3.0", "python-dotenv>=1.0.1"]
+dependencies = ["langchain>=0.3.8", "requests>=2.32.3", "langchain-anthropic>=0.3.0", "python-dotenv>=1.0.1", "pandas>=2.2.3", "mypy>=1.13.0", "pandas-stubs>=2.2.3.241009"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
